@@ -1,0 +1,330 @@
+
+#title{
+    padding: 10px 0;
+    border-bottom: 2px solid #ccc;
+}
+
+
+.controls{
+    display: flex;
+    justify-content: space-around;
+
+}
+.control-btn-container{
+    display: flex;
+}
+.control-btn{
+    margin-left: 8px;
+    width: 50px;
+    height: 100%;
+
+}
+.main-controls{
+    display: flex;
+}
+#filename-input{
+    margin-left: 10px;
+
+
+}
+.feature-btn{
+    color: white;
+    padding: 10px;
+    border: 1px solid rgb(151, 137, 137);
+    background: rgba(5, 50, 229, 0.905);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 9px );
+    -webkit-backdrop-filter: blur( 9px );
+    border-radius: 10px;
+}
+#content{
+    padding: 20px;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.5);
+    outline: none;
+    min-height: 300px;
+    margin: 30px 0;
+
+}
+.features{
+    margin-left: 120px;
+   
+    width: 100%;
+    height: 60px;
+}
+.length{
+    margin-left: 80px;
+    border: 1px solid rgb(57, 55, 55);
+
+    
+    display: flex;
+    height: 40px;
+    margin-top: 40px;
+    width: 13%;
+    background: rgba( 193, 188, 188, 0.65 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+}
+.main-features{
+    margin-left: 80px;
+    width: 40%;
+    
+    display: flex;
+    justify-content: space-between;
+}
+#letter{
+    color: rgb(30, 29, 29);
+    margin: 5px;
+}
+#demo{
+    margin: 5px;
+    color: rgb(30, 29, 29);
+
+}
+.length2{
+    width: 80%;
+}
+#Anchor{
+    width: 100px;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(253, 252, 252);
+    
+    text-decoration: none;
+    border: 1px solid rgb(151, 137, 137);
+    background: rgba(5, 50, 229, 0.905);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 9px );
+    -webkit-backdrop-filter: blur( 9px );
+    border-radius: 10px;
+}
+#anchor-text{
+    margin-top: 15px;
+}
+@media(max-width:600px){
+    .features{
+        margin-left: 0px;
+        width: 100%;
+    }
+    .main-features{
+        margin-left: 40px;
+        width: 60%;
+    }
+    
+    .length{
+        margin-left: 40px;
+        width: 50%;
+     
+    }
+    
+}
+
+@media(max-width:400px){
+    .dropdown {
+       width: 40px;
+    }
+    #filename-input {
+        margin-left: 40px;
+        width: 90px;
+    }
+    .dropdown-menu{
+
+    }
+    .control-btn-container {
+       
+    }
+    #title{
+       
+    }
+    
+    
+    .controls{
+        
+    
+    }
+    .control-btn-container{
+        
+    }
+    .control-btn{
+        
+    }
+    .main-controls{
+       
+    }
+    #filename-input{
+      
+    
+    
+    }
+    .feature-btn{
+    }
+    #content{
+      
+    }
+    .features {
+        padding: 12px;
+        /* justify-content: space-between; */
+        height: 40px;
+        
+        width: 100%;
+    }
+    .length{
+        
+    }
+    #UpperBtn{
+        width: 70px;
+        font-size: 10px;
+        
+
+
+    }
+    #LowerBtn{
+        width: 70px;
+        font-size: 10px;
+
+    }
+    #LengthBtn{
+        width: 70px;
+        font-size: 10px;
+
+    }
+    #Anchor{
+        width: 70px;
+        
+    }
+    .main-features {
+        width: 100%;
+        height: 40px;
+        margin-left: 0px;
+    }
+        
+    #letter{
+        
+    }
+    #demo{
+        
+    
+    }
+    .length2{
+       
+    }
+        
+    .main-features{
+       
+    }
+    
+    .length{
+        
+     
+    }
+    #anchor-text {
+        font-size: 10px;
+        margin-top: 12px;
+    }
+    #bold-btn{
+        width: 40px;
+
+    }
+    #underline-btn{
+        width: 40px;
+
+
+    }
+    #italic-btn{
+        width: 40px;
+
+    }
+    #color-btn{
+        width: 40px;
+
+    }
+    
+}
+@media(max-width:300px){
+    .dropdown {
+        width: 40px;
+     }
+     #filename-input {
+         margin-left: 40px;
+         width: 90px;
+     }
+     .features {
+        padding: 12px;
+        /* justify-content: space-between; */
+        height: 40px;
+        
+        width: 100%;
+    }
+    .length{
+        
+    }
+    #UpperBtn{
+        width: 70px;
+        font-size: 10px;
+        
+
+
+    }
+    #LowerBtn{
+        width: 70px;
+        font-size: 10px;
+
+    }
+    #LengthBtn{
+        width: 70px;
+        font-size: 10px;
+
+    }
+    #Anchor{
+        width: 70px;
+        
+    }
+    .main-features {
+        width: 100%;
+        height: 40px;
+        margin-left: 0px;
+    }
+        
+    #letter{
+        
+    }
+    #demo{
+        
+    
+    }
+    .length2{
+       
+    }
+        
+    .main-features{
+       
+    }
+    
+    .length{
+        
+     
+    }
+    #anchor-text {
+        font-size: 10px;
+        margin-top: 12px;
+    }
+    #bold-btn{
+        width: 40px;
+
+    }
+    #underline-btn{
+        width: 40px;
+
+
+    }
+    #italic-btn{
+        width: 40px;
+
+    }
+    #color-btn{
+        width: 40px;
+
+    }
+    
+}

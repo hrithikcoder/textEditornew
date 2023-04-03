@@ -1,0 +1,11 @@
+function voice(){
+    var recognition = new webkitSpeechRecognition();
+    recognition.lang="en-GB";
+    recognition.onresult=function(event){
+        console.log(event);
+        document.getElementById("text").value=
+           event.results[0][0].transcript;
+        document.getElementById("text").style.color="green"
+    }
+    recognition.start();
+}
